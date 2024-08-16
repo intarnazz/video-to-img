@@ -26,5 +26,5 @@ def extract_frames(video_path, output_dir='./img/'):
     video_capture.release()
     print(f"Разделение завершено. Всего извлечено {frame_count} кадров.")
 
-video_path = 'video.mp4' 
+video_path = '.video/video.mp4' 
 extract_frames(video_path)
